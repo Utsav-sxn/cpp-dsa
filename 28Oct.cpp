@@ -1,3 +1,5 @@
+// 40
+
 void backTrack(vector<int>& cand,vector<vector<int>>& ans,vector<int> op,int rem,int ind){
         if(rem == 0){
             ans.push_back(op);
